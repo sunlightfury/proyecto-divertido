@@ -1,29 +1,20 @@
-# Python program to print
-# Hello Python
+# # Abstract the values of multiplies of 3 and 5 by using for in loop in python
 
-# a = 3
-# b = 2
+# start_value = 1
+# end_value = 101
 
-# c = a + b
-# print("sum:", c)
-
-# for i in range(3, 101, 3):
-#     print("multiples of 3:", i)
-
-# for j in range(5, 101, 5):
-#     print("multiplees of 5:", j)
+# for i in range(start_value, end_value + 10):
+    
+#     if i % 3 == 0 or i % 5 == 0:
+#         print("ultimate_result:", i)
 
 
-# Set the range of numbers
-start_range = 3
-end_range = 100
+# # If you want to specify the data type of a variable, this can be done with casting
+# x = str(7)
+# y = int(7)
+# z = float(7)
 
-for i in range(start_range, end_range):
+# print("data_types_with_casting:", x)
+# print("data_types_with_casting:", y)
+# print("data_types_with_casting:", z)
 
-    # Check for multiples of 3
-    if i % 3 == 0 or i % 5 == 0:
-        print("multiples of 3 and 5", i)
-
-    # # Check for multiples of 5
-    # if i % 5 == 0:
-    #     print("multiples of 5", i)
