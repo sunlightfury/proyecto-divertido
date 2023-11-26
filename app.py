@@ -8,13 +8,8 @@
 #     if i % 3 == 0 or i % 5 == 0:
 #         print("ultimate_result:", i)
 
+class myClass:
+    class_value = 700000
 
-# # If you want to specify the data type of a variable, this can be done with casting
-# x = str(7)
-# y = int(7)
-# z = float(7)
-
-# print("data_types_with_casting:", x)
-# print("data_types_with_casting:", y)
-# print("data_types_with_casting:", z)
-
+plus = myClass()
+print(plus.class_value)
